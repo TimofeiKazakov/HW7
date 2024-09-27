@@ -4,7 +4,7 @@ print(my_dict['Alisa'])
 my_dict.update({'Maria': 1999,
                 'Kirill': 2000})
 print(my_dict)
-my_dict.pop('Dmitry')
+print(my_dict.pop('Dmitry'))
 print(my_dict)
 
 my_set = {2, 'Python',  9, 0, 2, 0, 9}
