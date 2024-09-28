@@ -1,8 +1,11 @@
 my_dict = {'Dmitry': 1990, 'Grigori': 1985, 'Alisa': 2005}
 print(my_dict)
+my_dict['Alisa'] = 2005
+my_dict['Alex'] = 1993
 print(my_dict['Alisa'])
-my_dict.update({'Maria': 1999,
-                'Kirill': 2000})
+print(my_dict['Alex'])
+print(my_dict)
+my_dict.update({'Maria': 1999, 'Kirill': 2000})
 print(my_dict)
 print(my_dict['Dmitry'])
 my_dict.pop('Dmitry')
